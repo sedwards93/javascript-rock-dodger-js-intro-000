@@ -105,7 +105,7 @@ function createRock(x) {
      * But if the rock *has* reached the bottom of the GAME,
      * we should remove the rock from the DOM.
      */
-  }
+  
 
   // We should kick off the animation of the rock around here.
 
