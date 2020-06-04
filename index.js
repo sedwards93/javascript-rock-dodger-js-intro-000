@@ -73,6 +73,18 @@ function createRock(x) {
    * seems like a good pace.)
    */
   function moveRock() {
+    rock.style.top = `${top+=2}px`;
+
+    if (checkCollision(rock)) {
+      endGame()
+    }
+
+    if (top <=GAME_HEIGHT) {
+      rock.remove()
+    } else {
+      window.requestAnimationFrame(moveRock)
+    }
+
     // implement me!
     // (use the comments below to guide you!)
     /**
