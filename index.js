@@ -86,7 +86,7 @@ function createRock(x) {
     }
 
     window.requestAnimationFrame(moveRock)
-
+}
     // implement me!
     // (use the comments below to guide you!)
     /**
